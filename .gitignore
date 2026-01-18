@@ -1,12 +1,12 @@
 # Unity default ignore list
-/Library/
-/Temp/
-/obj/
-/Build/
-/Builds/
-/Assets/AssetStoreTools*
-/Assets/StreamingAssets/UnityAds
-/Assets/StreamingAssets/UnityPurchasing
+Library/
+Temp/
+obj/
+Build/
+Builds/
+Assets/AssetStoreTools*
+Assets/StreamingAssets/UnityAds
+Assets/StreamingAssets/UnityPurchasing
 
 # Visual Studio / MonoDevelop generated files
 *.pidb
