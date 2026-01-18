@@ -1,4 +1,6 @@
 # Unity default ignore list
+# ����Ŀ¼����ԭ�к��Ĺ���
+Logs/
 Library/
 Temp/
 obj/
@@ -8,7 +10,29 @@ Assets/AssetStoreTools*
 Assets/StreamingAssets/UnityAds
 Assets/StreamingAssets/UnityPurchasing
 
-# Visual Studio / MonoDevelop generated files
+# ���䣺Unity ��ɫ����������־����׼ƥ�䣬����©/��ƥ�䣩
+Logs/shadercompiler-*.log
+Logs/UnityShaderCompiler*.log
+
+# ���䣺Unity �Զ����ɵĻ���/�����ļ�
+*.assetmeta~
+*.prefabmeta~
+*.unitymeta~
+.vs/
+.vscode/
+*.booproj
+*.svd
+*.pdb
+UnityPackageManager/Manifest.json.meta
+ProjectSettings/ProjectVersion.txt.meta
+
+# ���䣺Unity �Ʒ���/�������
+Assets/UnityAnalytics/
+Assets/UnityConnect/
+Assets/Editor.meta
+Assets/Plugins.meta
+
+# Visual Studio / MonoDevelop generated files����ԭ�й���+���䣩
 *.pidb
 *.suo
 *.user
@@ -17,8 +41,12 @@ Assets/StreamingAssets/UnityPurchasing
 *.unityproj
 *.sln
 *.tmp
+*.mdp
+*.mdb
+*.opendb
+*.VC.db
 
-# OS generated files
+# OS generated files����ԭ�й���+���䣩
 .DS_Store
 .DS_Store?
 ._*
@@ -26,3 +54,19 @@ Assets/StreamingAssets/UnityPurchasing
 .Trashes
 ehthumbs.db
 Thumbs.db
+desktop.ini
+$RECYCLE.BIN
+*.lnk
+*.bak
+*.swp
+*~
+
+# ���䣺����������
+ExportedObj/
+NavMeshAssets/
+AssetSerializationConfig.asset
+*.unitypackage
+light/Logs/shadercompiler-UnityShaderCompiler.exe-0.log
+*.log
+light/Logs/shadercompiler-UnityShaderCompiler.exe-1.log
+*.log
